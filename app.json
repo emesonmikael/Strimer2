@@ -18,6 +18,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+       
+      },
+      "permissions": [
+        "INTERNET"
+      ],
+      "networkSecurityConfig": {
+        "rules": [
+          {
+            "domain": "*",
+            "cleartextTrafficPermitted": true
+          }
+        ]
       }
     },
     "web": {
